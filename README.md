@@ -89,9 +89,9 @@ period — so sessions can reasonably be treated as independent.
 
 ## c. GitHub Repository Link
 
-**https://github.com/REPLACE_ME/online-shoppers-purchase-intention-ml**
+**https://github.com/NiharDash/online-shoppers-purchase-intention-ml**
 
-**Live Streamlit App:** _REPLACE_ME_ (see Deployment section)
+**Live Streamlit App:** _to be added after deployment — see the Deployment section below_
 
 ```
 online-shoppers-ml-app/
