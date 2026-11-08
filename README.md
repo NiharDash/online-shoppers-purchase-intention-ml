@@ -91,7 +91,7 @@ period — so sessions can reasonably be treated as independent.
 
 **https://github.com/NiharDash/online-shoppers-purchase-intention-ml**
 
-**Live Streamlit App:** _to be added after deployment — see the Deployment section below_
+**Live Streamlit App:** **https://nihar-online-shoppers.streamlit.app**
 
 ```
 online-shoppers-ml-app/
@@ -207,11 +207,14 @@ The file must contain **all 17 input features plus the `Revenue` target column**
 
 ### Deployment
 
-Deployed on **Streamlit Community Cloud**:
+**Live at → https://nihar-online-shoppers.streamlit.app**
+
+Deployed on **Streamlit Community Cloud** (Python 3.12):
 
 1. Push this repository to GitHub (public).
-2. Sign in at [streamlit.io/cloud](https://streamlit.io/cloud) with GitHub.
-3. **New App** → select this repo → branch `main` → main file `app.py` → **Deploy**.
+2. Sign in at [share.streamlit.io](https://share.streamlit.io) with GitHub.
+3. **Create app** → *Deploy a public app from GitHub* → select this repo →
+   branch `main` → main file `app.py` → **Deploy**.
 
 `scikit-learn` is pinned to the exact training version in `requirements.txt`; unpickling
 a model across a different minor version raises `InconsistentVersionWarning` and can
