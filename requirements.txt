@@ -1,0 +1,13 @@
+# scikit-learn is pinned exactly: the .joblib pipelines in model/ were
+# serialised with this version, and unpickling across a different minor
+# version raises InconsistentVersionWarning and can silently misbehave.
+scikit-learn==1.9.1
+
+# >=1.50 for the `width=` argument on st.pyplot / st.dataframe, which
+# replaced the now-removed `use_container_width`.
+streamlit>=1.50
+pandas>=2.2
+numpy>=2.0
+matplotlib>=3.8
+seaborn>=0.13
+joblib>=1.4
